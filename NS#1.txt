@@ -1,0 +1,31 @@
+1. SELECT * FROM Customers;
+2.SELECT customerid FROM Customers;
+3.SELECT Customerid,customername FROM Customers;
+4.SELECT contactname,address, city FROM Customers;
+5.SELECT country FROM Customers;
+6.SELECT CustomerID,CustomerName,Country FROM Customers;
+7.SELECT orderid FROM Orders;
+8.SELECT customerid FROM customers;
+9.SELECT orderid, employeeid, customerid from orders;
+10.select ShipperID,OrderID from orders;
+11. SELECT orderdate, country FROM customers,orders
+12. SELECT orderid from orders;
+13.select shippername, phone from shippers;
+14.select lastname, firstname from employees;
+15.select lastname, firstname, notes from employees; 
+16.select birthdate from employees;
+17.SELECT employeeid, photo from employees;
+18.select CategoryName,Description from categories;
+19.select productid, productname from products;
+20.select supplierid from products;
+21.select unit, price from products;
+22.select country from customers;
+23.select employeeid, customerid from customers,employees;
+24. there are 8 tables in this database.
+25.customers, categories, employees, orderdetails,orders, products, shippers, suppliers,and this datatbase currently holds 932 records.
+26.Select Make, Model 
+From Cars1
+Where Drivetrain = 'ALL'
+27. Select country, type 
+    From Cars;
+28. 2 rows were affected from the action.
